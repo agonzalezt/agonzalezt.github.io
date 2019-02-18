@@ -6,7 +6,7 @@ body{
 }
 
 .container{
-  background-color: #FFFFFF;
+  background-color: white;
   margin: 50px 0;
 }
 
@@ -23,8 +23,8 @@ body{
 .merit-image{
   display: block;
   max-width:100px;
-  max-height:100px;
-  width: auto;
+  max-height: auto;
+  width: 100%;
   height: auto;
 }
 
