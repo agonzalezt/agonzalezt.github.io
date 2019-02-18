@@ -35,13 +35,14 @@ technicalSkills:
     - tr: ".NET Framework/Core/Standard"
     - tr: "Experience with Linux and Windows environments"
     - tr: "Teamwork experience through PBL methodology"
-    - tr: "Mirocontroller and Programable Logic"
+    - tr: "Mirocontroller and Programable Logic programming"
     - tr: "English European C2 Level (CPE)"
   listright:
     - tr: "Experience with Staübli Robots"
-    - tr: "Experience Web technologies and APIs (REST/SOAP)"
+    - tr: "Web technologies and APIs (REST/SOAP)"
     - tr: "LaTex, Office and Presentation skills"
-    - tr: "OpenGL and OpenCV experience"
+    - tr: "OpenGL and OpenCV notions"
+    - tr: "Familiarity with artifial vision technologies and libraries"
   programmingLanguages:
    - name: C#
      level: 90
@@ -62,7 +63,7 @@ technicalSkills:
 education:
   - name: "MGEP (Mondragon Unibertsitatea Faculty of Engineering)"
     logo: "mgep.jpg"
-    degree: "Double Batchellor's degree of Computer Science and Telecommunication Systems Engineering"
+    degree: "Double Bachellor's Degree of Computer Science and Telecommunication Systems Engineering"
     location: "Mondragon, Spain"
     dates: "2016"
     link: "https://www.mondragon.edu/en/escuela-politecnica-superior"
@@ -71,7 +72,7 @@ otherMerits:
   - name: "CCNA 4"
     logo: "ccna.jpg"
     provider: "Cisco Networking Academy"
-    date: "2014 – 2019"
+    date: "2016"
     shortDescription: "Networking Course"
   - name: "Ikasiker Grant"
     logo: "ikasiker.jpg"
@@ -81,7 +82,7 @@ otherMerits:
   - name: "Term in Australia"
     logo: "morialta.jpg"
     provider: "HS Norwood-Morialta (Adelaide, South Australia)"
-    date: "2014"
+    date: "2013"
     shortDescription: "Term completed in an australian high school"
   - name: "PBLDay Atendee"
     logo: "pblday.jpg"
