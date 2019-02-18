@@ -1,0 +1,90 @@
+url: http://streetturtle.github.io
+projectUrl: jekyl-cv-crafter
+
+# leave blank fields which you don't want to fill/be displayed
+person:
+  name: Ander González Tomé
+  depiction: headshot.jpg
+  profession: Computer Science and Telecommunicaction Systems Engineer
+  location: Vitoria-Gasteiz (Spain)
+  citizenship: Spain
+  email: andergonzaleztome@gmail.com
+  site: http://www.agonzalezt.eus
+  phone: (+34) 650 20 94 84
+  github: /agonzalezt
+  stackoverflow: /ander-gonzalez
+  linkedin: /agonzalezt
+
+career:
+ - position: Research Collaborator
+   company: MGEP (Mondragon Unibertsitatea)
+   logo: mgep.jpg
+   location: Mondragon, Spain
+   dates: November 2016 - current
+   summary: Worked in the research facilities at MGEP developing and researching new approaches to quality inspection processes by conbining robotics, vision and software modeling. This work was done at the Industry 4.0 labs of the computer science and electronics department of MGEP.
+   accomplishments:
+    - accomplishment: Successfully completed the GreenFRG project, a project to enable the definition of the entire quality inspection of a piece from CAD software, in collaboration with Ekide, Alcorta Forging Group and Jovi Automation.
+    - accomplishment: Developed applications that interoperate with industrial hardware installations using C#.
+    - accomplishment: Used 3D vision systems based on laser line sensors for part reconstruction and analysis.
+    - accomplishment: Developed data aquisition plugins for Siemens NX PLM software.
+    
+
+technicalSkills:
+  listleft:
+    - tr: "MySQL, PostgreSQL"
+    - tr: ".NET Framework/Core/Standard"
+    - tr: "Experience with Linux and Windows environments"
+    - tr: "Teamwork experience through PBL methodology"
+    - tr: "Mirocontroller and Programable Logic"
+    - tr: "English European C2 Level (CPE)"
+  listright:
+    - tr: "Experience with Staübli Robots"
+    - tr: "Experience Web technologies and APIs (REST/SOAP)"
+    - tr: "LaTex, Office and Presentation skills"
+    - tr: "OpenGL and OpenCV experience"
+  programmingLanguages:
+   - name: C#
+     level: 90
+   - name: Java
+     level: 80
+   - name: C
+     level: 70
+   - name: Python
+     level: 50
+  languages:
+   - name: Spanish
+     level: 100
+   - name: English
+     level: 90
+   - name: Basque
+     level: 80
+
+education:
+  - name: "MGEP (Mondragon Unibertsitatea Faculty of Engineering)"
+    logo: "mgep.jpg"
+    degree: "Double Batchellor's degree of Computer Science and Telecommunication Systems Engineering"
+    location: "Mondragon, Spain"
+    dates: "2016"
+    link: "https://www.mondragon.edu/en/escuela-politecnica-superior"
+
+otherMerits:
+  - name: "CCNA 4"
+    logo: "ccna.jpg"
+    provider: "Cisco Networking Academy"
+    date: "2014 – 2019"
+    shortDescription: "Networking Course"
+  - name: "Ikasiker Grant"
+    logo: "ikasiker.jpg"
+    provider: "Basque Government"
+    date: "2018"
+    shortDescription: "Grant for students working on research projects"
+  - name: "Term in Australia"
+    logo: "morialta.jpg"
+    provider: "HS Norwood-Morialta (Adelaide, South Australia)"
+    date: "2014"
+    shortDescription: "Term completed in an australian high school"
+  - name: "PBLDay Atendee"
+    logo: "pblday.jpg"
+    provider: "Mondragon Unibertsitatea"
+    date: "2016 and 2018"
+    shortDescription: "Best PBL project of the degree those years"
