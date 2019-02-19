@@ -46,7 +46,7 @@
 <body>
   <div class="container">
     <div class="row header bg-gray">
-      <div class="col-xs-6">
+      <div class="col-md-6 col-xs-12">
         <h1 class="name">{{ site.data.cv.person.name }}</h1>
         <span class="profession">{{ site.data.cv.person.profession }}</span>
       </div>
@@ -56,7 +56,7 @@
           class="img-rounded">
       </div>
 
-      <div class="col-xs-3">
+      <div class="col-md-3 col-xs-12">
         <ul class="list-unstyled">
           {% if site.data.cv.person.location %}
           <li><i class="fa fa-map-marker"></i> {{site.data.cv.person.location}}</li>
@@ -95,57 +95,58 @@
     </div>
 
     <div class="row section section-border">
-        <div class="col-xs-3">
+        <div class="col-md-3 col-xs-12">
           <h2>Education</h2>
         </div>
-        <div class="col-xs-9">
+        <div class="col-md-9 col-xs-12">
   
           {% for item in site.data.cv.education %}
           <div class="row">
             <div class="row">
-              <div class="col-xs-2">
-                <img src="{{ item.logo }}" height="50" alt="{{ item.name }}'s Photo" class="pull-right" />
+              <div class="col-md-2 col-xs-12 text-xs-left text-md-right ">
+                <img src="{{ item.logo }}" height="50" alt="{{ item.name }}'s Photo" />
               </div>
-              <div class="col-xs-9">
-                <h4><b>{{item.name}}</b></h4 class="pull-left">
+              <div class="col-md-9 col-xs-12 text-left">
+                <h4><b>{{item.name}}</b></h4>
               </div>
             </div>
-            <div class="col-xs-12"><i class="fa fa-graduation-cap"></i> {{item.degree}}</div>
-            <div class="col-xs-12"><i class="fa fa-calendar"></i> {{item.dates}}</div>
-            <div class="col-xs-12"><i class="fa fa-map-marker"></i> {{item.location}}</div>
-            <div class="col-xs-12"><i class="fa fa-link"></i> <a href="{{item.link}}">{{item.link}}</a></div>
+            <div class="col-md-12 col-xs-12"><i class="fa fa-graduation-cap"></i> {{item.degree}}</div>
+            <div class="col-md-12 col-xs-12"><i class="fa fa-calendar"></i> {{item.dates}}</div>
+            <div class="col-md-12 col-xs-12"><i class="fa fa-map-marker"></i> {{item.location}}</div>
+            <div class="col-md-12 col-xs-12"><i class="fa fa-link"></i> <a href="{{item.link}}">{{item.link}}</a></div>
           </div>
           {% endfor %}
         </div>
       </div>
 
     <div class="row  section section-border">
-      <div class="col-xs-3">
+      <div class="col-md-3 col-xs-12">
         <h2>Career</h2>
       </div>
 
-      <div class="col-xs-9">
+      <div class="col-md-9 col-xs-12">
         {% for item in site.data.cv.career %}
         <div class="jd">
           <div class="row">
-            <div class="col-xs-4">
+            <div class="col-md-4 col-xs-12">
               <h4><b>{{ item.position }}</b></h4>
             </div>
-            <div class="col-xs-4">
-              <img src="{{ item.logo }}" height="50" alt="{{ item.company }}'s Photo" class="pull-right" />
+            <div class="col-md-4 col-xs-12 text-xs-left text-md-right">
+              <img src="{{ item.logo }}" height="50" alt="{{ item.company }}'s Photo" />
             </div>
-            <div class="col-xs-4 pull-right">
-              <h5 class="pull-right">{{ item.dates }}<br />
-                {{item.company}} <br /><i>({{item.location}})</i></h5>
+            <div class="col-md-4 col-xs-12 text-xs-left text-md-right">
+              <h5><i class="fa fa-calendar"></i> {{ item.dates }}<br />
+              <i class="fa fa-university"></i> {{item.company}} <br />
+              <i class="fa fa-map-marker"></i> {{item.location}}</h5>
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12">
+            <div class="col-md-12 col-xs-12">
               <p>{{ item.summary }}</p>
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12">
+            <div class="col-md-12 col-xs-12">
 
               {% if item.accomplishments.size > 0 %}
               <b>Selected accomplishments:</b>
@@ -164,12 +165,12 @@
 
 
     <div class="row section section-border pagebreakishere">
-      <div class="col-xs-3">
+      <div class="col-md-3 col-xs-12">
         <h2>Skills</h2>
       </div>
-      <div class="col-xs-9">
+      <div class="col-md-9 col-xs-12">
         <div class="row">
-          <div class="col-xs-6">
+          <div class="col-md-6 col-xs-12">
 
             <h4 class="techSkillHeader"><i class="fa fa-code"></i> Programming Languages</h4>
             {% for item in site.data.cv.technicalSkills.programmingLanguages %} {{item.name}}
@@ -179,7 +180,7 @@
             </div>
             {% endfor %}
           </div>
-          <div class="col-xs-6">
+          <div class="col-md-6 col-xs-12">
             <h4 class="techSkillHeader"><i class="fa fa-language"></i> Languages</h4>
             {% for item in site.data.cv.technicalSkills.languages %} {{item.name}}
             <div class="progress">
@@ -191,14 +192,14 @@
         </div>
         <div class="row">
           <h4><i class="fa fa-male"></i> Key competencies:</h4>
-          <div class="col-xs-6">
+          <div class="col-md-6 col-xs-12">
             <ul>
               {% for item in site.data.cv.technicalSkills.listleft %}
               <li>{{item.tr}}</li>
               {% endfor %}
             </ul>
           </div>
-          <div class="col-xs-6">
+          <div class="col-md-6 col-xs-12">
             <ul>
               {% for item in site.data.cv.technicalSkills.listright %}
               <li>{{item.tr}}</li>
@@ -212,23 +213,23 @@
     </div>
 
     <div class="row section section-border">
-        <div class="col-xs-3">
+        <div class="col-md-3 col-xs-12">
           <h2>Other Merits</h2>
         </div>
-        <div class="col-xs-9" >
+        <div class="col-md-9 col-xs-12" >
   
           {% for merit in site.data.cv.otherMerits %}
-          <div class="col-xs-6 content pull-left" style="padding-bottom:15px;">
+          <div class="col-md-6 col-xs-12 content pull-left" style="padding-bottom:15px;">
             <div class="row">
-              <div class="col-xs-4 text-left">
+              <div class="col-md-4 col-xs-12 text-left">
                 <img src="{{ merit.logo }}" alt="{{ merit.name }}'s Photo"
-                  class="pull-left merit-image" />
+                  class="merit-image" />
               </div>
-              <div class="col-xs-8">
-                <div class="col-xs-12" style="font-weight:bold">{{merit.name}}</div>
-                <div class="col-xs-12"><i class="fa fa-university"></i> {{merit.provider}}</div>
-                <div class="col-xs-12"><i class="fa fa-calendar"></i> {{merit.date}}</div>
-                <div class="col-xs-12"><i class="fa fa-info"></i> {{merit.shortDescription}}</div>
+              <div class="col-md-8 col-xs-12">
+                <div class="col-md-12" style="font-weight:bold">{{merit.name}}</div>
+                <div class="col-md-12"><i class="fa fa-university"></i> {{merit.provider}}</div>
+                <div class="col-md-12"><i class="fa fa-calendar"></i> {{merit.date}}</div>
+                <div class="col-md-12"><i class="fa fa-info"></i> {{merit.shortDescription}}</div>
               </div>
             </div>
           </div>
