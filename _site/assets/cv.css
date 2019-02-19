@@ -69,7 +69,8 @@ h1, h2 {
   font-family: 'Archivo Black' !important; }
 
 .techSkillHeader {
-  text-align: center; }
+  text-align: center;
+  padding-top: 15px; }
 
 @media print {
   .section {
