@@ -25,6 +25,9 @@ body {
     padding: 2px 5px; }
     .section .jd {
       padding: 2px 0; } }
+.text-justify {
+  text-align: justify; }
+
 .content {
   display: flex;
   align-items: center;
