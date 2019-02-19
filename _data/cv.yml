@@ -13,11 +13,10 @@ person:
   phone: (+34) 650 20 94 84
   github: /agonzalezt
   stackoverflow: /ander-gonzalez
-  linkedin: /agonzalezt
 
 career:
  - position: Research Collaborator
-   company: MGEP (Mondragon Unibertsitatea)
+   company: MGEP (Mondragon University)
    logo: mgep.jpg
    location: Mondragon, Spain
    dates: November 2016 - current
@@ -26,7 +25,7 @@ career:
     - accomplishment: Successfully completed the GreenFRG project, a project to enable the definition of the entire quality inspection of a piece from CAD software, in collaboration with Ekide, Alcorta Forging Group and Jovi Automation.
     - accomplishment: Developed applications that interoperate with industrial hardware installations using C#.
     - accomplishment: Used 3D vision systems based on laser line sensors for part reconstruction and analysis.
-    - accomplishment: Developed data aquisition plugins for Siemens NX PLM software.
+    - accomplishment: Developed data acquisition plugins for Siemens NX PLM software.
     
 
 technicalSkills:
@@ -35,14 +34,14 @@ technicalSkills:
     - tr: ".NET Framework/Core/Standard"
     - tr: "Experience with Linux and Windows environments"
     - tr: "Teamwork experience through PBL methodology"
-    - tr: "Mirocontroller and Programable Logic programming"
+    - tr: "Mirocontroller and Programable Logic programming (VHDL)"
     - tr: "English European C2 Level (CPE)"
   listright:
     - tr: "Experience with Staübli Robots"
     - tr: "Web technologies and APIs (REST/SOAP)"
     - tr: "LaTex, Office and Presentation skills"
     - tr: "OpenGL and OpenCV notions"
-    - tr: "Familiarity with artifial vision technologies and libraries"
+    - tr: "Familiarity with artificial vision technologies and libraries"
   programmingLanguages:
    - name: C#
      level: 90
@@ -61,9 +60,9 @@ technicalSkills:
      level: 80
 
 education:
-  - name: "MGEP (Mondragon Unibertsitatea Faculty of Engineering)"
+  - name: "MGEP (Mondragon University, Faculty of Engineering)"
     logo: "mgep.jpg"
-    degree: "Double Bachellor's Degree of Computer Science and Telecommunication Systems Engineering"
+    degree: "Double Bachelor's Degree of Computer Science and Telecommunication Systems Engineering"
     location: "Mondragon, Spain"
     dates: "2016"
     link: "https://www.mondragon.edu/en/escuela-politecnica-superior"
@@ -86,6 +85,6 @@ otherMerits:
     shortDescription: "Term completed in an australian high school"
   - name: "PBLDay Atendee"
     logo: "pblday.jpg"
-    provider: "Mondragon Unibertsitatea"
+    provider: "Mondragon University"
     date: "2016 and 2018"
     shortDescription: "Best PBL project of the degree those years"
