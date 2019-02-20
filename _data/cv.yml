@@ -1,7 +1,6 @@
 url: http://streetturtle.github.io
 projectUrl: jekyl-cv-crafter
 
-# leave blank fields which you don't want to fill/be displayed
 person:
   name: Ander González Tomé
   depiction: headshot.jpg
@@ -33,18 +32,20 @@ career:
 
 technicalSkills:
   listleft:
-    - tr: "MySQL, PostgreSQL"
     - tr: ".NET Framework/Core/Standard"
-    - tr: "Experience with Linux and Windows environments"
-    - tr: "Teamwork experience through PBL methodology"
-    - tr: "Mirocontroller and Programable Logic programming (VHDL)"
-    - tr: "English European C2 Level (CPE)"
-  listright:
     - tr: "Experience with Staübli Robots"
-    - tr: "Web technologies and APIs (REST/SOAP)"
-    - tr: "LaTex, Office and Presentation skills"
     - tr: "OpenGL and OpenCV notions"
     - tr: "Familiarity with artificial vision technologies and libraries"
+    - tr: "Teamwork experience through PBL methodology"
+    - tr: "English European C2 Level (CPE)"
+  listright:
+    - tr: "Mirocontroller and Programable Logic programming (VHDL)"
+    - tr: "Experience with Linux and Windows environments"
+    - tr: "LaTex, Office and Presentation skills"
+    - tr: "MySQL, PostgreSQL"
+    - tr: "Web technologies and APIs (REST/SOAP)"
+    
+    
   programmingLanguages:
    - name: C#
      level: 90
@@ -65,29 +66,34 @@ technicalSkills:
 education:
   - name: "MGEP (Mondragon University, Faculty of Engineering)"
     logo: "mgep.jpg"
-    degree: "Double Bachelor's Degree of Computer Science and Telecommunication Systems Engineering"
+    degree: "Double Bachelor’s Degree of Engineering on Computer Science and Telecommunication Systems"
     location: "Mondragon, Spain"
     dates: "2016"
     link: "https://www.mondragon.edu/en/escuela-politecnica-superior"
 
 otherMerits:
-  - name: "CCNA 4"
+  - name: "CCNA 1 to 4"
     logo: "ccna.jpg"
     provider: "Cisco Networking Academy"
-    date: "2016"
-    shortDescription: "Networking Course"
+    date: "2015 - 2017"
+    shortDescription: "Networking Courses"
   - name: "Ikasiker Grant"
     logo: "ikasiker.jpg"
     provider: "Basque Government"
     date: "2018"
-    shortDescription: "Grant for students working on research projects"
-  - name: "Term in Australia"
+    shortDescription: "Grant for students working on research projects in the Basque Country"
+  - name: "Scholar Term in Australia"
     logo: "morialta.jpg"
     provider: "HS Norwood-Morialta (Adelaide, South Australia)"
     date: "2013"
-    shortDescription: "Term completed in an australian high school"
-  - name: "PBLDay Attendee"
+    shortDescription: "A Term completed in an australian high school (11th year)"
+  - name: "PBL projects selected for PBLDay"
     logo: "pblday.jpg"
     provider: "Mondragon University"
     date: "2016 and 2018"
-    shortDescription: "Best PBL project of the degree those years"
+    shortDescription: "Event for showcasing the best PBL projects of the year of each degree"
+  - name: "Cisco Cybersecurity Essentials"
+    logo: "security.png"
+    provider: "Cisco Networking Academy"
+    date: "2017"
+    shortDescription: "Course on Network Security"

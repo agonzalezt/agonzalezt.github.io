@@ -99,33 +99,31 @@
         <h2>Profile</h2>
       </div>
       <div class="col-md-9 col-xs-12 text-justify">
-          <p class="text-justify">{{site.data.cv.aboutme}}</p>
+        <p class="text-justify">{{site.data.cv.aboutme}}</p>
       </div>
     </div>
 
     <div class="row section section-border">
-        <div class="col-md-3 col-xs-12">
-          <h2>Education</h2>
-        </div>
-        <div class="col-md-9 col-xs-12">  
-          {% for item in site.data.cv.education %}
-          <div class="col-xs-12">
-            <div class="row">
-              <div class="col-md-2 col-xs-12 text-xs-left text-md-right ">
-                <img src="{{ item.logo }}" height="50" alt="{{ item.name }}'s Photo" />
-              </div>
-              <div class="col-md-9 col-xs-12 text-left">
-                <h4><b>{{item.name}}</b></h4>
-              </div>
-            </div>
-            <div class="col-md-12 col-xs-12"><i class="fa fa-graduation-cap"></i> {{item.degree}}</div>
-            <div class="col-md-12 col-xs-12"><i class="fa fa-calendar"></i> {{item.dates}}</div>
-            <div class="col-md-12 col-xs-12"><i class="fa fa-map-marker"></i> {{item.location}}</div>
-            <div class="col-md-12 col-xs-12"><i class="fa fa-link"></i> <a href="{{item.link}}">{{item.link}}</a></div>
-          </div>
-          {% endfor %}
-        </div>
+      <div class="col-md-3 col-xs-12">
+        <h2>Education</h2>
       </div>
+      {% for item in site.data.cv.education %}
+      <div class="col-md-9 col-xs-12">
+        <div class="row">
+          <div class="col-md-2 col-xs-12 text-xs-left text-md-right ">
+            <img src="{{ item.logo }}" height="50" alt="{{ item.name }}'s Photo" />
+          </div>
+          <div class="col-md-9 col-xs-12 text-left">
+            <h4><b>{{item.name}}</b></h4>
+          </div>
+        </div>
+        <div class="col-md-12 col-xs-12"><i class="fa fa-graduation-cap"></i> {{item.degree}}</div>
+        <div class="col-md-12 col-xs-12"><i class="fa fa-calendar"></i> {{item.dates}}</div>
+        <div class="col-md-12 col-xs-12"><i class="fa fa-map-marker"></i> {{item.location}}</div>
+        <div class="col-md-12 col-xs-12"><i class="fa fa-link"></i> <a href="{{item.link}}">{{item.link}}</a></div>
+      </div>
+      {% endfor %}
+    </div>
 
     <div class="row  section section-border">
       <div class="col-md-3 col-xs-12">
@@ -143,9 +141,9 @@
               <img src="{{ item.logo }}" height="50" alt="{{ item.company }}'s Photo" />
             </div>
             <div class="col-md-4 col-xs-12 text-xs-left text-md-right">
-              <h5><i class="fa fa-calendar"></i> {{ item.dates }}<br />
-              <i class="fa fa-university"></i> {{item.company}} <br />
-              <i class="fa fa-map-marker"></i> {{item.location}}</h5>
+                <div class="col-md-12 col-xs-12"><i class="fa fa-calendar"></i> {{ item.dates }}</div>
+                <div class="col-md-12 col-xs-12"><i class="fa fa-university"></i> {{item.company}}</div>
+                <div class="col-md-12 col-xs-12"><i class="fa fa-map-marker"></i> {{item.location}}</div>
             </div>
           </div>
           <div class="row">
@@ -221,32 +219,31 @@
     </div>
 
     <div class="row section section-border">
-        <div class="col-md-3 col-xs-12">
-          <h2>Other Merits</h2>
-        </div>
-        <div class="col-md-9 col-xs-12" >
-  
-          {% for merit in site.data.cv.otherMerits %}
-          <div class="col-md-6 col-xs-12 content pull-left" style="padding-bottom:15px;">
-            <div class="row">
-              <div class="col-md-4 col-xs-12 text-left">
-                <img src="{{ merit.logo }}" alt="{{ merit.name }}'s Photo"
-                  class="merit-image" />
-              </div>
-              <div class="col-md-8 col-xs-12">
-                <div class="col-md-12" style="font-weight:bold">{{merit.name}}</div>
-                <div class="col-md-12"><i class="fa fa-university"></i> {{merit.provider}}</div>
-                <div class="col-md-12"><i class="fa fa-calendar"></i> {{merit.date}}</div>
-                <div class="col-md-12"><i class="fa fa-info"></i> {{merit.shortDescription}}</div>
-              </div>
+      <div class="col-md-3 col-xs-12">
+        <h2>Other Merits</h2>
+      </div>
+      <div class="col-md-9 col-xs-12">
+
+        {% for merit in site.data.cv.otherMerits %}
+        <div class="col-md-6 col-xs-12 content pull-left" style="padding-bottom:15px;">
+          <div class="row">
+            <div class="col-md-4 col-xs-12 text-left">
+              <img src="{{ merit.logo }}" alt="{{ merit.name }}'s Photo" class="merit-image" />
+            </div>
+            <div class="col-md-8 col-xs-12">
+              <div class="col-md-12" style="font-weight:bold">{{merit.name}}</div>
+              <div class="col-md-12"><i class="fa fa-university"></i> {{merit.provider}}</div>
+              <div class="col-md-12"><i class="fa fa-calendar"></i> {{merit.date}}</div>
+              <div class="col-md-12"><i class="fa fa-info"></i> {{merit.shortDescription}}</div>
             </div>
           </div>
-          {% endfor %}
-  
-  
         </div>
+        {% endfor %}
+
+
       </div>
-    
+    </div>
+
   </div>
 
 
